@@ -1,0 +1,15 @@
+{
+  "name": "decor-build",
+  "version": "0.1.0-dev",
+  "dependencies": {},
+  "devDependencies": {
+    "decor": "0.1.0-dev"
+  },
+  "ignore": [
+    ".jshintrc",
+    ".gitattributes",
+    ".travis.yml",
+    "tests",
+    "CONTRIBUTING.md"
+  ]
+}
