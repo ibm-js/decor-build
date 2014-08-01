@@ -1,9 +1,9 @@
 {
   "name": "decor-build",
-  "version": "0.2.0-beta",
+  "version": "0.2.0-dev",
   "dependencies": {},
   "devDependencies": {
-    "decor": "0.2.0-beta"
+    "decor": "0.2.0-dev"
   },
   "ignore": [
     ".jshintrc",
