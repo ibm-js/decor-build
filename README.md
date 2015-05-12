@@ -24,8 +24,10 @@ Then install dependencies with bower (or manually from github if you prefer to):
 
 ## How to use
 
-To load the minified layer you need to wrap your main `require` call with another `require`, requiring `"decor-build/layer"`. Then you should continue to
-refer to modules with `"decor/foo"`.
+### `baseUrl` is the directory containing `decor-build`.
+This is the most common use-case so the needed configuration is built in the layer.
+To load the minified layer you just need to wrap your main `require` call with another `require`, requiring `"decor-build/layer"`.
+Then you should continue to refer to modules with `"decor/foo"`.
 
 For example, this code:
 ```js
@@ -41,6 +43,24 @@ require(["decor-build/layer"], function() {
 	});
 });
 ```
+
+### Other `baseUrl`
+
+If `baseUrl` is not the directory containing `decor-build`, custom configuration is needed.
+
+```js
+require.config({
+	paths: {
+		"decor": "path/to/decor-build"
+	}
+});
+```
+
+
+## Bug reporting
+
+Issues should be filled against the source version of this project at [ibm-js/decor](https://github.com/ibm-js/decor)
+
 
 ## Licensing
 
