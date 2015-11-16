@@ -1,11 +1,11 @@
 {
   "name": "decor-build",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "dependencies": {
     "requirejs": "2.1.x"
   },
   "devDependencies": {
-    "decor": "0.6.0"
+    "decor": "0.7.0"
   },
   "ignore": [
     ".jshintrc",
